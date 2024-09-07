@@ -112,11 +112,6 @@ a {
   flex-grow: 1;
 }
 
-.preloader{
-  position: absolute;
-  z-index: 4;
-}
-
 .content__card-link{
   display: block;
 }
