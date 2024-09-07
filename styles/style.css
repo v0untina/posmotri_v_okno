@@ -249,13 +249,10 @@ input{
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: '';
-  position: absolute;
   width: 15px;
   height: 15px;
   background-color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
 }
 
 .button:active{
