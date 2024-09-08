@@ -78,6 +78,10 @@ a {
   margin-top:23px;
 }
 
+.search-form__fieldset:nth-of-type(2) {
+  margin-left: 14px;
+}
+
 .content__list {
   position: relative;
   width: 404px;
@@ -212,6 +216,7 @@ fieldset {
   text-align: left;
   margin-bottom: 2px;
   margin-left: 2px;
+  margin-right: 20px; /* добавьте этот стиль */
 }
 
 .more-button {
@@ -257,7 +262,7 @@ input {
 
 .search-form__checkbox-list {
   display: flex;
-  gap: 9px;
+  gap: 18px;
 }
 
 
@@ -267,7 +272,6 @@ input {
   border: 1px solid white;
   display: flex;
   position: relative;
-
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
