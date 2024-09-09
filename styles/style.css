@@ -268,19 +268,21 @@ input {
 
 
 .search-form__pseudo-checkbox {
-  width: 20px;
-  height: 20px;
+  width: 19px;
+  height: 19px;
   border: 1px solid white;
   display: flex;
   position: relative;
+  padding: 1px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: '';
+  position: relative;
+  display: block;
   width: 15px;
   height: 15px;
   background-color: white;
-  transform: translate(10%, 9%);
 }
 
 .button:active {
