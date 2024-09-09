@@ -50,7 +50,6 @@ a {
 
 .result {
   width: 711px;
-  height: 438px;
   margin-top: 96px;
 }
 
@@ -105,6 +104,10 @@ a {
 
 .content__list-item:last-child {
   margin-bottom: 0;
+}
+
+.search-form__label:nth-child(2) .search-form__label-text {
+  margin-left: 10px;
 }
 
 .content__video-card {
@@ -162,7 +165,6 @@ a {
 .content__video-card-description {
   display: -webkit-box;
   width: 200px;
-  max-height: 65px;
   overflow: hidden;
   color: white;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -214,9 +216,8 @@ fieldset {
   font-weight: 400;
   line-height: 21.6px;
   text-align: left;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
   margin-left: 2px;
-  margin-right: 20px; /* добавьте этот стиль */
 }
 
 .more-button {
@@ -247,7 +248,7 @@ input {
 }
 
 .search-form__label-text{
-  margin-left: 2px;
+  margin-left: 5px;
 }
 
 .search-form__label {
@@ -262,7 +263,7 @@ input {
 
 .search-form__checkbox-list {
   display: flex;
-  gap: 18px;
+  gap: 12px;
 }
 
 
@@ -279,7 +280,7 @@ input {
   width: 15px;
   height: 15px;
   background-color: white;
-  transform: translate(10%, 8%);
+  transform: translate(10%, 9%);
 }
 
 .button:active {
