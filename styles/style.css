@@ -110,6 +110,10 @@ a {
   margin-left: 10px;
 }
 
+.search-form__label:nth-child(1) .search-form__pseudo-checkbox {
+  margin-left: 3px;
+}
+
 .content__video-card {
   display: flex;
   flex-direction: row;
